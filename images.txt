@@ -1,11 +1,8 @@
 nginx:v1.19
-nginx-ingress
+nginx/nginx-ingress:latest
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-kicbase/stable
-mysql
-bitnami/etcd
+mysql:5.7
+bitnami/etcd:latest
 #支持指定架构
---platform=linux/amd64 xiaoyaliu/alist
+--platform=linux/amd64
 
