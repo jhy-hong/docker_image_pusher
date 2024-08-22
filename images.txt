@@ -1,7 +1,4 @@
-nginx:v1.19
-nginx/nginx-ingress:latest
-#支持私库
-mysql:5.7
+mysql:v5.7
 bitnami/etcd:latest
 #支持指定架构
 --platform=linux/amd64
