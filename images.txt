@@ -1,7 +1,7 @@
 redis
 bitnami/kafka
 bitnami/postgresql
-labring/ingress-nginx
+mysql:v5.7.2
 #支持指定架构
 --platform=linux/amd64  xiaoyaliu/alist
 
